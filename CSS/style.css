@@ -44,4 +44,36 @@ header nav ul li:hover{
     transition: 1s;
 }
 
+.container-descricao{
+    display: flex;
+}
 
+main h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 35px;
+}
+.container-descricao img{
+    margin: 0px 25px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px rgb(60, 109, 124);
+    /*box-shadow: sobreamento 10px 10px 10px 10px e escolher a cor*/
+}
+
+.paragrafo-descricao p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 0px 25px 10px;
+}
+
+.accordion{
+    padding: 25px;
+}
+.card-header{
+    background-color: rgb(115, 205, 233);
+    color: rgb(0, 10, 10);
+}
+
+.card-body{
+    background-color: rgb(183, 228, 228);
+}
